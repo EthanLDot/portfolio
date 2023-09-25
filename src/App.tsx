@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./global.css"
 import CardContainer from "./components/CardContainer";
 import "./App.css";
+import {Link} from 'react-router-dom';
 const HomePage: FunctionComponent = () => {
   // const navigate = useNavigate();
 
@@ -25,16 +26,18 @@ const HomePage: FunctionComponent = () => {
           className= "expandDownDouble"
           // onClick={onExpandDownDoubleClick}
         >
-          <img
-            className="expandDownTop"
-            alt=""
-            src="images/vector-9.svg"
-          />
-          <img
-            className="expandDownBottom"
-            alt=""
-            src="images/vector-9.svg"
-          />
+          <Link to="/portfolio/contents">
+            <img
+              className="expandDownTop"
+              alt=""
+              src="images/vector-9.svg"
+            />
+            <img
+              className="expandDownBottom"
+              alt=""
+              src="images/vector-9.svg"
+            />
+          </Link>
         </button>
       </footer>
       <main className="content">
