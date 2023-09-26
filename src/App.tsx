@@ -23,12 +23,12 @@ const HomePage: FunctionComponent = () => {
             <img
               className="expandDownTop"
               alt=""
-              src="images/vector-9.svg"
+              src="/images/vector-9.svg"
             />
             <img
               className="expandDownBottom"
               alt=""
-              src="images/vector-9.svg"
+              src="/images/vector-9.svg"
             />
           </Link>
         </button>

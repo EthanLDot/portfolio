@@ -14,56 +14,56 @@ const PortfolioPage: FunctionComponent = () => {
     window.open("https://github.com/EthanLDot");
   }, []);
 
-//   const onThomsonReutersContainerClick = useCallback(() => {
-//     navigate("/experience/thomson-reuters");
-//   }, [navigate]);
+  const onThomsonReutersContainerClick = useCallback(() => {
+    navigate("/portfolio/experience/thomson-reuters");
+  }, [navigate]);
 
-//   const onAnheuserContainerClick = useCallback(() => {
-//     navigate("/experience/anheuser-busch");
-//   }, [navigate]);
+  const onAnheuserContainerClick = useCallback(() => {
+    navigate("/portfolio/experience/anheuser-busch");
+  }, [navigate]);
 
-//   const onCodingMindContainerClick = useCallback(() => {
-//     navigate("/experience/coding-mind");
-//   }, [navigate]);
+  const onCodingMindContainerClick = useCallback(() => {
+    navigate("/portfolio/experience/coding-mind");
+  }, [navigate]);
 
 //   const onUCSDExpContainerClick = useCallback(() => {
-//     navigate("/experience/ucsd");
+//     navigate("/portfolio/experience/ucsd");
 //   }, [navigate]);
 
 //   const onRootTechContainerClick = useCallback(() => {
-//     navigate("/experience/roottech");
+//     navigate("/portfolio/experience/roottech");
 //   }, [navigate]);
 
 //   const onUCSDContainerClick = useCallback(() => {
-//     navigate("/education/ucsd");
+//     navigate("/portfolio/education/ucsd");
 //   }, [navigate]);
 
 //   const onYonseiContainerClick = useCallback(() => {
-//     navigate("/education/yonsei");
+//     navigate("/portfolio/education/yonsei");
 //   }, [navigate]);
 
 //   const onUCSDZooContainerClick = useCallback(() => {
-//     navigate("/projects/ucsd-zoo");
+//     navigate("/portfolio/projects/ucsd-zoo");
 //   }, [navigate]);
 
 //   const onPortfolioContainerClick = useCallback(() => {
-//     navigate("/projects/portfolio");
+//     navigate("/portfolio/projects/portfolio");
 //   }, [navigate]);
 
 //   const onCovidStudyContainerClick = useCallback(() => {
-//     navigate("/projects/covid-study");
+//     navigate("/portfolio/projects/covid-study");
 //   }, [navigate]);
 
 //   const onTaxiPredictionContainerClick = useCallback(() => {
-//     navigate("/projects/taxi-prediction");
+//     navigate("/portfolio/projects/taxi-prediction");
 //   }, [navigate]);
 
 //   const onHowPrivateContainerClick = useCallback(() => {
-//     navigate("/projects/how-private");
+//     navigate("/portfolio/projects/how-private");
 //   }, [navigate]);
 
 //   const onTravelTodayContainerClick = useCallback(() => {
-//     navigate("/projects/travel-today");
+//     navigate("/portfolio/projects/travel-today");
 //   }, [navigate]);
 
   const onBackClick = useCallback(() => {
@@ -71,7 +71,7 @@ const PortfolioPage: FunctionComponent = () => {
   }, [navigate]);
 
 //   const redirectToLicenses = useCallback(() => {
-//     navigate("/image-license");
+//     navigate("/portfolio/image-license");
 //   }, [navigate]);
 
   useEffect(() => {
@@ -101,17 +101,17 @@ const PortfolioPage: FunctionComponent = () => {
                 <h3 className={styles.experience}>UC San Diego</h3>
               </div>
               <div className={styles.codingMindsAcademy}
-                // onClick={onCodingMindContainerClick}
+                onClick={onCodingMindContainerClick}
               >
                 <h3 className={styles.experience}>Coding Mind Academy</h3>
               </div>
               <div className={styles.anheuserBusch}
-                // onClick={onAnheuserContainerClick}
+                onClick={onAnheuserContainerClick}
               >
                 <h3 className={styles.experience}>Anheuser Busch</h3>
               </div>
               <div className={styles.thomsonReuters}
-                // onClick={onThomsonReutersContainerClick}
+                onClick={onThomsonReutersContainerClick}
               >
                 <h3 className={styles.experience}>Thomson Reuters</h3>
               </div>

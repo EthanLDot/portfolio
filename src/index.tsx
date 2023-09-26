@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import PortfolioPage from './pages/Portfolio';
+import ThomsonReuters from "./pages/experiences/ThomsonReuters";
+import AnheuserBusch from "./pages/experiences/AnheuserBusch";
+import CodingMind from "./pages/experiences/CodingMind";
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -18,7 +20,19 @@ const router = createBrowserRouter([
   {
     path: "/portfolio/contents",
     element: <PortfolioPage/>,
-  }
+  },
+  {
+    path: "/portfolio/experience/thomson-reuters",
+    element: <ThomsonReuters/>
+  },
+  {
+    path: "/portfolio/experience/anheuser-busch",
+    element: <AnheuserBusch/>
+  },
+  {
+    path: "/portfolio/experience/coding-mind",
+    element: <CodingMind/>
+  },
 ]);
 
 const root = ReactDOM.createRoot(
