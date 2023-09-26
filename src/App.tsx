@@ -4,20 +4,13 @@ import "./global.css"
 import CardContainer from "./components/CardContainer";
 import "./App.css";
 import {Link} from 'react-router-dom';
+import { useEffect} from "react";
 const HomePage: FunctionComponent = () => {
   // const navigate = useNavigate();
 
-  const onLinkedInContainerClick = useCallback(() => {
-    window.open("https://www.linkedin.com/in/ethan-lee-2847981b0/");
+  useEffect(() => {
+    document.title = "Portfolio | Ethan Lee";  
   }, []);
-
-  const onGithubContainerClick = useCallback(() => {
-    window.open("https://github.com/EthanLDot");
-  }, []);
-
-  // const onExpandDownDoubleClick = useCallback(() => {
-  //   navigate("/portfolio-page");
-  // }, [navigate]);
 
   return (
     <div className="homePage">
