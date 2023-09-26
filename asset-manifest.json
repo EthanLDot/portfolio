@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.854a2d60.css",
-    "main.js": "/portfolio/static/js/main.cbd52f80.js",
+    "main.css": "/portfolio/static/css/main.0b295b22.css",
+    "main.js": "/portfolio/static/js/main.352e33ea.js",
     "static/js/787.b8320860.chunk.js": "/portfolio/static/js/787.b8320860.chunk.js",
+    "static/media/yonsei-university@3x.png": "/portfolio/static/media/yonsei-university@3x.1cfe8d230ddb86a985ed.png",
+    "static/media/roottech@3x.png": "/portfolio/static/media/roottech@3x.de25e3df3e1a9fea8591.png",
+    "static/media/travel-today@3x.png": "/portfolio/static/media/travel-today@3x.47a93e042969cf7c9b6f.png",
+    "static/media/uc-san-diego1@3x.png": "/portfolio/static/media/uc-san-diego1@3x.18289224fb284b0a3987.png",
     "static/media/home-page@3x.png": "/portfolio/static/media/home-page@3x.89aa5253237b528c9502.png",
+    "static/media/uc-san-diego@3x.png": "/portfolio/static/media/uc-san-diego@3x.2f3267e663917b6ed605.png",
+    "static/media/personal-portfolio@3x.png": "/portfolio/static/media/personal-portfolio@3x.fa7c4bd96cdd3c5e6de0.png",
+    "static/media/coding-minds-academy@3x.png": "/portfolio/static/media/coding-minds-academy@3x.1dd325cdfbc568b1ff65.png",
+    "static/media/anheuser-busch@3x.png": "/portfolio/static/media/anheuser-busch@3x.b5ef4249322e4b14fa28.png",
+    "static/media/taxi-time-prediction@3x.png": "/portfolio/static/media/taxi-time-prediction@3x.57aaf34fd945d1f35ad2.png",
+    "static/media/ucsd-zoo@3x.png": "/portfolio/static/media/ucsd-zoo@3x.eaba308172cc089fe47f.png",
+    "static/media/thomson-reuters@3x.png": "/portfolio/static/media/thomson-reuters@3x.37273025c4450a9902a2.png",
+    "static/media/covid-infections-study@3x.png": "/portfolio/static/media/covid-infections-study@3x.0af4146a986248941fa3.png",
+    "static/media/how-private-ru@3x.png": "/portfolio/static/media/how-private-ru@3x.0c6ac97aac4155f47faa.png",
     "index.html": "/portfolio/index.html",
-    "main.854a2d60.css.map": "/portfolio/static/css/main.854a2d60.css.map",
-    "main.cbd52f80.js.map": "/portfolio/static/js/main.cbd52f80.js.map",
+    "main.0b295b22.css.map": "/portfolio/static/css/main.0b295b22.css.map",
+    "main.352e33ea.js.map": "/portfolio/static/js/main.352e33ea.js.map",
     "787.b8320860.chunk.js.map": "/portfolio/static/js/787.b8320860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.854a2d60.css",
-    "static/js/main.cbd52f80.js"
+    "static/css/main.0b295b22.css",
+    "static/js/main.352e33ea.js"
   ]
 }
