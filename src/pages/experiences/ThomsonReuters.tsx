@@ -18,7 +18,7 @@ const ExperiencePage: FunctionComponent = () => {
       <img
         className={styles.experiencePageChild}
         alt="thomson reuters-style office ai-generated"
-        src="/images/thomson-reuters.png"
+        src={require('../../images/thomson-reuters.png')}
       />
       <div className={styles.rhsFrame}>
         <div className={styles.frame}>
@@ -54,12 +54,12 @@ const ExperiencePage: FunctionComponent = () => {
           <img
             className={styles.expandDownTop}
             alt=""
-            src="/images/vector-10.svg"
+            src={require('../../images/vector.png')}
           />
           <img
             className={styles.expandDownTop}
             alt=""
-            src="/images/vector-91.svg"
+            src={require('../../images/vector.png')}
           />
         </button>
       </div>

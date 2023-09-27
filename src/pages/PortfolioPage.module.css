@@ -29,7 +29,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../public/images/roottech@3x.png);
+    background-image: url(../images/roottech@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -37,7 +37,7 @@
   .ucSanDiego {
     right: 68.08%;
     left: 0;
-    background-image: url(../../public/images/uc-san-diego@3x.png);
+    background-image: url(../images/uc-san-diego@3x.png);
   }
   .experience {
     margin: 0;
@@ -61,7 +61,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../public/images/coding-minds-academy@3x.png);
+    background-image: url(../images/coding-minds-academy@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -69,7 +69,7 @@
   .anheuserBusch {
     right: 34.13%;
     left: 33.95%;
-    background-image: url(../../public/images/anheuser-busch@3x.png);
+    background-image: url(../images/anheuser-busch@3x.png);
   }
   .thomsonReuters1 {
     margin: 0;
@@ -130,7 +130,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../public/images/thomson-reuters@3x.png);
+    background-image: url(../images/thomson-reuters@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -168,7 +168,7 @@
       33.17259216308594px;
     box-sizing: border-box;
     align-items: center;
-    background-image: url(../../public/images/yonsei-university@3x.png);
+    background-image: url(../images/yonsei-university@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -176,7 +176,7 @@
   .ucSanDiego2 {
     right: 68.08%;
     left: 0;
-    background-image: url(../../public/images/uc-san-diego1@3x.png);
+    background-image: url(../images/uc-san-diego1@3x.png);
   }
   .educationGalleryContents {
     align-self: stretch;
@@ -214,7 +214,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(../../public/images/travel-today@3x.png);
+    background-image: url(../images/travel-today@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -226,7 +226,6 @@
   .ucsdZoo {
     right: 68.08%;
     left: 0;
-    background-image: url(../../public/images/covid-infections-study@3x.png);
   }
   .howPrivateRu2,
   .personalPortfolio,
@@ -235,25 +234,38 @@
     top: -1px;
     right: 0.19%;
     left: 67.89%;
-    background-image: url(../../public/images/ucsd-zoo@3x.png);
   }
   .howPrivateRu2,
   .personalPortfolio,
   .taxiTimePrediction {
     right: 34.13%;
     left: 33.95%;
-    background-image: url(../../public/images/taxi-time-prediction@3x.png);
   }
   .howPrivateRu2,
   .personalPortfolio {
     top: 239px;
-    background-image: url(../../public/images/how-private-ru@3x.png);
+    
+  }
+  .covidInfectionsStudy{
+    background-image: url(../images/covid-infections-study@3x.png);
+  }
+  .ucsdZoo {
+    background-image: url(../images/ucsd-zoo@3x.png);
+  }
+
+  .taxiTimePrediction {
+    background-image: url(../images/taxi-time-prediction@3x.png);
+
+  }
+  .howPrivateRu2{
+    background-image: url(../images/how-private-ru@3x.png);
+
   }
   .personalPortfolio {
     top: -1px;
     right: 68.08%;
     left: 0;
-    background-image: url(../../public/images/personal-portfolio@3x.png);
+    background-image: url(../images/personal-portfolio@3x.png);
   }
   .projectGalleryContents {
     align-self: stretch;

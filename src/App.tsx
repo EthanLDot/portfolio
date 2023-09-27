@@ -1,5 +1,4 @@
-import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { FunctionComponent } from "react";
 import "./global.css"
 import CardContainer from "./components/CardContainer";
 import "./App.css";
@@ -23,12 +22,12 @@ const HomePage: FunctionComponent = () => {
             <img
               className="expandDownTop"
               alt=""
-              src="/images/vector-9.svg"
+              src={require('./images/vector.png')}
             />
             <img
               className="expandDownBottom"
               alt=""
-              src="/images/vector-9.svg"
+              src={require('./images/vector.png')}
             />
           </Link>
         </button>
