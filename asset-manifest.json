@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.69c8a295.css",
-    "main.js": "/portfolio/static/js/main.3980badc.js",
+    "main.css": "/portfolio/static/css/main.b0daa1a0.css",
+    "main.js": "/portfolio/static/js/main.0e83e9bb.js",
     "static/js/787.b8320860.chunk.js": "/portfolio/static/js/787.b8320860.chunk.js",
     "static/media/yonsei-university@3x.png": "/portfolio/static/media/yonsei-university@3x.1cfe8d230ddb86a985ed.png",
     "static/media/roottech@3x.png": "/portfolio/static/media/roottech@3x.de25e3df3e1a9fea8591.png",
@@ -20,12 +20,12 @@
     "static/media/covid-infections-study@3x.png": "/portfolio/static/media/covid-infections-study@3x.0af4146a986248941fa3.png",
     "static/media/how-private-ru@3x.png": "/portfolio/static/media/how-private-ru@3x.0c6ac97aac4155f47faa.png",
     "index.html": "/portfolio/index.html",
-    "main.69c8a295.css.map": "/portfolio/static/css/main.69c8a295.css.map",
-    "main.3980badc.js.map": "/portfolio/static/js/main.3980badc.js.map",
+    "main.b0daa1a0.css.map": "/portfolio/static/css/main.b0daa1a0.css.map",
+    "main.0e83e9bb.js.map": "/portfolio/static/js/main.0e83e9bb.js.map",
     "787.b8320860.chunk.js.map": "/portfolio/static/js/787.b8320860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c8a295.css",
-    "static/js/main.3980badc.js"
+    "static/css/main.b0daa1a0.css",
+    "static/js/main.0e83e9bb.js"
   ]
 }
