@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c63d523f.css",
-    "main.js": "/portfolio/static/js/main.c99e4c85.js",
+    "main.css": "/portfolio/static/css/main.69c8a295.css",
+    "main.js": "/portfolio/static/js/main.3980badc.js",
     "static/js/787.b8320860.chunk.js": "/portfolio/static/js/787.b8320860.chunk.js",
     "static/media/yonsei-university@3x.png": "/portfolio/static/media/yonsei-university@3x.1cfe8d230ddb86a985ed.png",
     "static/media/roottech@3x.png": "/portfolio/static/media/roottech@3x.de25e3df3e1a9fea8591.png",
@@ -14,16 +14,18 @@
     "static/media/anheuser-busch@3x.png": "/portfolio/static/media/anheuser-busch@3x.b5ef4249322e4b14fa28.png",
     "static/media/taxi-time-prediction@3x.png": "/portfolio/static/media/taxi-time-prediction@3x.57aaf34fd945d1f35ad2.png",
     "static/media/ucsd-zoo@3x.png": "/portfolio/static/media/ucsd-zoo@3x.eaba308172cc089fe47f.png",
+    "static/media/anheuser-busch.png": "/portfolio/static/media/anheuser-busch.32bcf30689e931766399.png",
+    "static/media/thomson-reuters.png": "/portfolio/static/media/thomson-reuters.eada2c80e27f86366138.png",
     "static/media/thomson-reuters@3x.png": "/portfolio/static/media/thomson-reuters@3x.37273025c4450a9902a2.png",
     "static/media/covid-infections-study@3x.png": "/portfolio/static/media/covid-infections-study@3x.0af4146a986248941fa3.png",
     "static/media/how-private-ru@3x.png": "/portfolio/static/media/how-private-ru@3x.0c6ac97aac4155f47faa.png",
     "index.html": "/portfolio/index.html",
-    "main.c63d523f.css.map": "/portfolio/static/css/main.c63d523f.css.map",
-    "main.c99e4c85.js.map": "/portfolio/static/js/main.c99e4c85.js.map",
+    "main.69c8a295.css.map": "/portfolio/static/css/main.69c8a295.css.map",
+    "main.3980badc.js.map": "/portfolio/static/js/main.3980badc.js.map",
     "787.b8320860.chunk.js.map": "/portfolio/static/js/787.b8320860.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c63d523f.css",
-    "static/js/main.c99e4c85.js"
+    "static/css/main.69c8a295.css",
+    "static/js/main.3980badc.js"
   ]
 }
