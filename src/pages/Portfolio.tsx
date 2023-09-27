@@ -70,9 +70,9 @@ const PortfolioPage: FunctionComponent = () => {
     navigate("/portfolio");
   }, [navigate]);
 
-//   const redirectToLicenses = useCallback(() => {
-//     navigate("/portfolio/image-license");
-//   }, [navigate]);
+  const redirectToLicenses = useCallback(() => {
+    navigate("/portfolio/licensing");
+  }, [navigate]);
 
   useEffect(() => {
     document.title = "Portfolio | Contents";  
@@ -172,7 +172,7 @@ const PortfolioPage: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.note} 
-          //onClick={redirectToLicenses}
+          onClick={redirectToLicenses}
           >
             Image licensing
           </div>

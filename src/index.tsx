@@ -7,6 +7,7 @@ import ThomsonReuters from "./pages/experiences/ThomsonReuters";
 import AnheuserBusch from "./pages/experiences/AnheuserBusch";
 import CodingMind from "./pages/experiences/CodingMind";
 import reportWebVitals from './reportWebVitals';
+import LicensingPage from './pages/Licensing';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
     path: "/portfolio/experience/coding-mind",
     element: <CodingMind/>
   },
+  {
+    path: "/portfolio/licensing",
+    element: <LicensingPage/>
+  }
 ]);
 
 const root = ReactDOM.createRoot(
